@@ -20,4 +20,4 @@
 
 ### b) ¿Qué error os da VS Code si intentáis poner dos servidores con el mismo ID?
 
-Al intentar validar un XML donde dos servidores comparten el mismo `id` (por ejemplo, duplicar `srv-web-01`), VS Code (o cualquier validador XSD) muestra un error similar a: Duplicate unique value [srv-web-01] declared for identity constraint "UnicoID" of element "catalogo_cloud".
+Al intentar validar un XML donde dos servidores comparten el mismo `id` (por ejemplo, duplicar `srv-web-01`), VS Code (o cualquier validador XSD) muestra un error: Duplicate unique value [srv-web-01] declared for identity constraint "UnicoID" of element "catalogo_cloud".
