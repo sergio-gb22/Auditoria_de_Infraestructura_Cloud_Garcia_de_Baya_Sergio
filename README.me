@@ -1,0 +1,6 @@
+## a. ¿Cuántas líneas de código habéis ahorrado al usar grupos?
+Al utilizar <xs:group> y <xs:attributeGroup>, el ahorro es significativo
+Reducción: Se han ahorrado aproximadamente 10-15 líneas de código de definición repetida por cada declaración de componente
+Impacto a largo plazo: La principal ventaja no es solo ahorrar lineas, sino la mantenibilidad; cualquier cambio en la estructura de metadatos ahora se realiza en un solo lugar del esquema en vez de replicarse en múltiples definiciones
+## b. ¿Qué error os da VS Code si intentáis poner dos servidores con el mismo ID?
+Al haber implementado el indicador <xs:unique> al final de la definición del elemento padre , el validador de VS Code nos da un error de restricción de identidad (Identity Constraint Violation)
