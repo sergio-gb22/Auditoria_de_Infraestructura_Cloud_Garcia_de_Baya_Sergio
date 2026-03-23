@@ -1,4 +1,4 @@
-# Auditor-a_de_Infraestructura_Cloud_Garc-a_de_Baya_Sergio
+# Auditor-a_de_Infraestructura_Cloud_Garcia_de_Baya_Sergio
 
 ### Misión 1: Mapeo de Seguridad
 > **Objetivo:** Extraer todos los puertos de los servicios alojados específicamente en el centro de datos de París.
